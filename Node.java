@@ -1,30 +1,29 @@
-package Tugas6;
+package Pertemuan7;
+
 
 public class Node {
-    private int data;
+    private Matakuliah data;
     private Node next;
-    
-    // inisialisasi Node
-    public Node(int data) {
+
+
+    public Node(Matakuliah data) {
         this.data = data;
     }
-    
-    // setter dan getter
-    
-    public int getData() {
+
+    public Matakuliah getData() {
         return data;
     }
-    
-     public Node getNext() {
-        return next;
-    }
-     
-    public void setdata(int data) {
+
+    public void setData(Matakuliah data) {
         this.data = data;
     }
-    
+
+    public Node getNext() {
+        return next;
+    }
+
     public void setNext(Node next) {
         this.next = next;
     }
-    
 }
+
