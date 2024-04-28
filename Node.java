@@ -1,20 +1,20 @@
-package Pertemuan7;
-
+package Pertemuan9;
 
 public class Node {
-    private Matakuliah data;
+
+    private int data;
     private Node next;
 
-
-    public Node(Matakuliah data) {
+    public Node(int data) {
         this.data = data;
+        this.next = null;
     }
 
-    public Matakuliah getData() {
+    public int getData() {
         return data;
     }
 
-    public void setData(Matakuliah data) {
+    public void setData(int data) {
         this.data = data;
     }
 
@@ -26,4 +26,3 @@ public class Node {
         this.next = next;
     }
 }
-
